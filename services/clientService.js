@@ -1,3 +1,18 @@
+/**
+ * Nome do arquivo: clientService.js
+ * Data de criação: 09/05/2024
+ * Autor: Naiane Ferreira
+ * Matrícula: 01593553
+ *
+ * Descrição:
+ * Este arquivo JavaScript é responsável por implementar as funcionalidades
+   de interação do usuário com a interface gráfica do módulo de gerenciamento de clientes.
+   Aqui são tratados eventos de cliques, validações de entrada e comunicação
+   com APIs para envio e recebimento de dados relacionados aos clientes..
+ *
+ * Este script é parte o curso de ADS.
+ */
+
 import {
   collection,
   addDoc,
