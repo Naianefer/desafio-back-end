@@ -13,7 +13,6 @@
  * Este script é parte o curso de ADS.
  */
 
-   
 import {
   collection,
   addDoc,
@@ -22,7 +21,7 @@ import {
   updateDoc,
   deleteDoc,
 } from "firebase/firestore";
-import { db } from "@/services/firebaseConfig";
+import { db } from "../services/firebaseConfig";
 
 class ClientService {
   async addClient(clientData) {
